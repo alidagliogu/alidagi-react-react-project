@@ -1,0 +1,71 @@
+.footer-container{
+    height: 300px;
+}
+.footer-one{
+    height: 60%;
+    border-bottom: 2px solid lightgray;
+}
+.footer-logo{
+    font-size: 65px;
+    font-weight:1000;
+    display: inline;
+  }
+.footer-icons{
+  padding-left: 120px;
+}
+.footer-icons a img{
+  width: 20px;
+}
+.footer-icons a{
+  margin-right: 15px;
+}
+.footer-two p{
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 70px;
+  font-size: 15px;
+  display: inline-block;
+}
+.footer-two div{
+  display: inline-block;
+  float: right;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+.footer-two div a{
+  text-decoration: none;
+  color: black;
+  padding-left: 25px;
+  font-size: 15px;
+}
+.footer-link li a{
+  text-decoration: none;
+  color: black;
+}
+.footer-search input:focus{
+  outline: none;
+}
+.footer-search input{
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+}
+::placeholder{
+  font-size: 20px;
+  font-weight: 800;
+  color: lightgray;
+  padding-left: 10px;
+}
+.footer-search button{
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  left: 85%;
+  border: none;
+  background-color: rgb(255, 56, 56);
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  border-radius: 5px;
+}

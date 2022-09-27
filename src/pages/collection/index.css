@@ -1,0 +1,15 @@
+.collection-header{
+    height: 300px;
+    width: 100%;
+    background-color: lightgray;
+}
+.collection-user{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    position: relative;
+    top: 60%;
+    left: 10%;
+    border: 4px solid white;
+    border-radius: 10px;
+}
